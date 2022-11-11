@@ -1,0 +1,13 @@
+body {
+    background-color: rgba(252, 241, 148, 0.975);
+}
+h1,h2{
+    color:rgba(114, 21, 21, 0.975)
+}
+
+h1{
+    background-color: rgb(240, 201, 28);
+    text-indent: 20px; 
+    letter-spacing: -1px; 
+    text-decoration: underline;
+}
