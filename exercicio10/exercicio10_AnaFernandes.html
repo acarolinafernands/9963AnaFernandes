@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio10</title>
+    <style>
+        table {
+            border: 1px solid black;
+            width: 700px;
+            border-collapse: collapse;
+            text-align: left;
+            position: relative;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+
+        td,th {
+            border: 1px solid black;
+            font-weight: 30;
+            padding: 10px;
+        }
+
+        caption {
+            font-size: larger;
+            font-weight: bolder;
+            padding: 2%;
+            
+        }
+        
+        .bold{
+            font-weight: bolder;
+            text-align: center;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <table>
+        <caption>Filmes Favoritos</caption>
+        <thead>
+            <tr>
+                <th scope="col" class="bold">Grupos</th>
+                <th scope="col" class="bold">Nomes</th>
+                <th scope="col" colspan="3" class="bold">Filmes</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th rowspan="3" class="bold">Mulheres</th>
+                <th>Ana Santos</th>
+                <th>Alien</th>
+                <th>Rambo</th>
+                <th>Vingadores</th>
+            </tr>
+
+            <tr>
+                <th>Beatriz Silva</th>
+                <th>Hulk</th>
+                <th>Inception</th>
+                <th>Batman</th>
+            </tr>
+
+            <tr>
+                <th>Claúdia Pereira</th>
+                <th>Oblivion</th>
+                <th>Matrix</th>
+                <th>Big Hero</th>
+            </tr>
+
+
+            <tr>
+                <th rowspan="3" class="bold">Homens</th>
+                <th>Bruno Carvalho</th>
+                <th>Intocáveis</th>
+                <th>Amnésia</th>
+                <th>Gladiador</th>
+            </tr>
+
+            <tr>
+                <th>Daniel Filipe</th>
+                <th>Wall-E</th>
+                <th>Oldboy</th>
+                <th>Dangal</th>
+            </tr>
+
+            <tr>
+                <th>Rui Santos</th>
+                <th>Star Wars V</th>
+                <th>Taxi Driver</th>
+                <th>Toy Story</th>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="4" class="bold"> Total</th>
+                <th>1000</th>
+            </tr>
+        </tfoot>
+
+    </table>
+</body>
+
+</html>
