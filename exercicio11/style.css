@@ -1,0 +1,66 @@
+@charset "exercicio11_AnaFernandes";
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+body {
+    background: url(madeira.jpg) no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+}
+
+.telefone {
+    background-image: url(iphone.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 311px;
+    height: 627px;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}    
+
+iframe {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 267px;
+    height: 473px;
+    border-radius: 5px 5px 3px 5px;
+}
+
+
+   .telefone {
+       top: 60%;
+   }
+
+   .telefone {
+        width: 280px;
+        height: 565px;
+   }
+
+   iframe {
+        width: 240px;
+        height: 425px;
+
+        bottom: -285px;
+   }
+
